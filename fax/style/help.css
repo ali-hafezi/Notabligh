@@ -1,0 +1,26 @@
+@charset "utf-8";
+#help-content {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	border-radius: 25px;
+	-moz-border-radius: 25px; /* Old Firefox */
+	box-shadow: 10px 10px 5px #888888;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+	text-align: justify;
+}
+#help-content a {
+	display: block;
+}
+
+#help-content ul li {
+	list-style-position: inside;
+	list-style-type: circle;
+}

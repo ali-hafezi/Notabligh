@@ -1,0 +1,83 @@
+@charset "utf-8";
+  table tr th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+table {
+	margin-bottom: 30px;
+}
+
+  
+td {
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #000000;
+}
+table tr td a {
+	background-image: url(../../images/images/gif.gif);
+	background-repeat: no-repeat;
+	color: #000;
+	position: relative;
+	width: 90px;
+}
+
+.panel {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	position: relative;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /* Old Firefox */
+	margin-bottom: 30px;
+}
+#order {
+	height: 200px;
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	text-decoration: none;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+#red {
+	background-image: url(../../images/images/PanelBg-red.gif);
+	background-repeat: repeat-y;
+}
+
+
+
+#blue {
+	background-image: url(../../images/images/PanelBg-blue.gif);
+	background-repeat: repeat-y;
+}
+#green {
+	background-image: url(../../images/images/PanelBg-green.gif);
+	background-repeat: repeat-y;
+}
+#download {
+	float: right;
+	width: 150px;
+	position: relative;
+	text-align: center;
+	background-image: url(../../images/images/download1.png);
+	background-repeat: no-repeat;
+}
+#download a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-weight: bold;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+#download a:hover {
+color:#F4C433;
+}

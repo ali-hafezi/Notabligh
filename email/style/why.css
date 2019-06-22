@@ -1,0 +1,16 @@
+@charset "utf-8";
+#whyemail {
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /* Old Firefox */
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}

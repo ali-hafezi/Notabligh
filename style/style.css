@@ -1,0 +1,94 @@
+@charset "utf-8";
+body,html {
+	height:100%;
+}
+#main-layout {
+	position: relative;
+	height: auto;
+	width: 100%;
+	min-height: 100%;
+	background-image: url(../images/subpages-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 75px;
+}
+h1   {
+	display: none;
+}
+#logo-holder {
+	height: 139px;
+	width: 659px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-image: url(../images/logo2.png);
+	background-repeat: no-repeat;
+	margin-bottom: 40px;
+}
+#menubar {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+.boxes {
+	float: left;
+	height: 100px;
+	width: 150px;
+	margin-right: 10px;
+	position: relative;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	cursor: hand;
+	padding-top: 50px;
+	text-align: center;
+	background-position: left;
+}
+#box1 {
+	background-image: url(../images/box1.png);
+}
+#box1:hover {
+	background-position: right;
+}
+#box2 {
+	background-image: url(../images/box2.png);
+}
+#box2:hover {
+	background-position: right;
+}
+#box3 {
+	background-image: url(../images/box3.png);
+}
+#box3:hover {
+	background-position: right;
+}
+#box4 {
+	background-image: url(../images/box4.png);
+}
+#box4:hover {
+background-position: right;
+}
+#box5 {
+	background-image: url(../images/box5.png);
+}
+#box5:hover {
+	background-position: right;
+}
+#box6 {
+	background-image: url(../images/box6.png);
+}
+#box6:hover {
+	background-position: right;
+}
+.fixer {
+	clear: both;
+}
+#footer {
+	background-image: url(../images/footer-bg.png);
+	background-repeat: repeat-x;
+	position: relative;
+	height: 80px;
+	width: 100%;
+}

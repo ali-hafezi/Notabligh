@@ -1,0 +1,39 @@
+@charset "utf-8";
+#bank {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	border-radius: 15px;
+	-moz-border-radius: 15px; /* Old Firefox */
+	box-shadow: 10px 10px 5px #888888;
+
+}
+#bank table {
+	width: 500px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#bank table tr td {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #000;
+	text-align: center;
+	height: 25px;
+	background-repeat: no-repeat;
+	font-size: 15px;
+}
+#bank table tr td a {
+	background-image: url(../../images/images/gif.gif);
+	background-repeat: no-repeat;
+	width: 90px;
+	color: #FFF;
+	text-decoration: none;
+	position: relative;
+	background-position: center center;
+	height: 20px;
+}
+#bank table tr th {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 18px;
+}

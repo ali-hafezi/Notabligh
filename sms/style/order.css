@@ -1,0 +1,65 @@
+@charset "utf-8";
+.textboxes {
+	height: 37px;
+	width: 180px;
+	background-color: #EFEFEF;
+	margin: 0px;
+	padding: 0px;
+}
+.textboxes:hover{
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-left-style: solid;
+	border-top-color: #990;
+	border-left-color: #990;
+}
+#txtcomment {
+	height: 190px;
+	width: 250px;
+}
+table tr td {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+}
+table {
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+	background-image: url(../../images/images/table-bg.png);
+	background-repeat: no-repeat;
+	position: relative;
+	width: 650px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1027px;
+}
+form table tr td a {
+	display: inline-block;
+	color: #000;
+}
+form table tr td a img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	background-position: top;
+	position: relative;
+	height: 20px;
+	width: 20px;
+}
+
+
+
+#cmbpanel {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+#cmbknowing {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color: #000;
+}

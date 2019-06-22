@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+table tr td {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 24px;
+}
+table {
+	background-image: url(images/transparent-layout.png);
+	background-repeat: repeat;
+	width: 550px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	border-radius: 25px;
+	-moz-border-radius: 25px; /* Old Firefox */
+	box-shadow: 10px 10px 5px #888888;
+
+}
+table tr td a {
+	background-image: url(../../images/images/gif.gif);
+	background-repeat: no-repeat;
+	height: 22px;
+	width: 94px;
+	color: #FFF;
+	position: relative;
+	background-position: center center;
+}

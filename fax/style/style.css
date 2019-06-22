@@ -1,0 +1,176 @@
+@charset "utf-8";
+html, body {
+height: 100%;
+}
+body {
+	background-attachment: scroll;
+	background-image: url(../../images/images/bg-main-2.jpg);
+	background-repeat: repeat-y;
+	background-position: center center;
+	min-width: 960px;
+}
+#main {
+	background-image: url(../../images/images/bg-main.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0px;
+	position: relative;
+	z-index: 2;
+	height: auto;
+	min-height: 100%;	
+}
+
+#topmost {
+	background-image: url(../../images/images/topmost.jpg);
+	background-repeat: repeat-x;
+	overflow: hidden;
+	position: relative;
+	height: 55px;
+	width: 100%;
+}
+#topmost-navigation {
+	height: 32px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 23px;
+}
+.home {
+	background-image: url(../../images/images/house.png);
+	background-repeat: no-repeat;
+	background-position: left;
+	position: relative;
+	height: 17px;
+	width: 17px;
+	cursor: pointer;
+	cursor: hand;
+	float: left;
+}
+
+
+.home:hover{
+background-position: right;
+}
+#inner {
+	background-image: url(../../images/images/inner.jpg);
+	background-repeat: repeat-x;
+	position: relative;
+	height: 6px;
+	width: 100%;
+}
+#base-layout {
+	min-height: 480px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding-top: 130px;
+	z-index: 2;	
+}
+#logo {
+	background-image: url(../../images/images/faxlogo.png);
+	background-repeat: no-repeat;
+	height: 172px;
+	width: 291px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+	position: relative;
+	cursor: pointer;
+	cursor: hand;
+	z-index: 2;
+	display: block;
+}
+#logo h1 {
+	display: none;
+}
+
+#menubar {
+	position: relative;
+	width: 960px;
+	z-index: 2;
+	min-height: 228px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.navigation {
+	width: 220px;
+	margin-right: 20px;
+	position: relative;
+
+	float: left;
+	min-height: 228px;
+}
+.navigation img {
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: transparent;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.navigation h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #434648;
+	text-align: center;
+	position: relative;
+	height: 44px;
+	width: 220px;
+	padding-top: 20px;
+	background-color: #FFF;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px 10px 5px #888888;
+    -moz-border-bottom-right-radius: 5px; /* Old Firefox */
+	-moz-border-bottom-left-radius: 5px;  /* Old Firefox */
+}
+.fixer {
+	clear: both;
+}
+#main-1{
+	width:100%;
+	height: 363px; 
+	background: url(../../images/images/bg-main-1.jpg) center bottom no-repeat;
+	position:absolute;
+	bottom:0;
+	left:0;
+	z-index:1;
+}
+#footer {
+	background-image: url(../../images/images/bg-footer.jpg);
+	background-repeat: repeat-x;
+	position: relative;
+	height: 51px;
+	width: 100%;
+}
+#footer h4 {
+	height: 31px;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #BEBBB9;
+	padding-top: 20px;
+	font-size: 14px;
+	font-weight: 100;
+}
+#picture {
+	height: 197px;
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	background-image: url(../../images/images/banner.jpg);
+	margin-bottom: 70px;
+	background-repeat: no-repeat;
+}
+#content-layout {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	min-height: 600px;
+	z-index: 2;
+}

@@ -1,0 +1,71 @@
+@charset "utf-8";
+#content-know {
+	position: relative;
+}
+#boxe-know {
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.boxes {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	position: relative;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 25px;
+	-moz-border-radius: 25px; /* Old Firefox */
+}
+.boxes h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	text-align: center;
+	position: relative;
+	height: 30px;
+	width: 300px;
+	background-color: #0C9;
+}
+.boxes h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	position: relative;
+	height: 40px;
+	width: 300px;
+	text-align: center;
+	background-color: #0FF;
+	padding-top: 20px;
+}
+
+.boxes h4 {
+	font-family: Tahoma, Geneva, sans-serif;
+	position: relative;
+	height: 40px;
+	width: 300px;
+	background-color: #339;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 17px;
+}
+
+.boxes h5 {
+	font-family: Tahoma, Geneva, sans-serif;
+	background-color: #3C6;
+	text-align: center;
+	height: 40px;
+	width: 300px;
+	padding-top: 20px;
+	position: relative;
+	font-size: 12px;
+}
+
+.boxes a {
+	background-color: #CC0;
+	text-align: center;
+	height: 40px;
+	width: 300px;
+	padding-top: 10px;
+	position: relative;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 19px;
+}

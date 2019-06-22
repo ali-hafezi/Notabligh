@@ -1,0 +1,117 @@
+#new-site {
+	width: 940px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#minysite {
+	float: left;
+	width: 600px;
+	position: relative;
+}
+#minymenubar {
+	float: right;
+	width: 300px;
+	position: relative;
+	height: 630px;
+}
+#minymenubar a {
+	position: relative;
+	height: 110px;
+	width: 300px;
+	display: block;
+	cursor: pointer;
+	cursor: hand;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+		border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px 10px 5px #888888;
+    -moz-border-top-left-radius: 5px; /* Old Firefox */
+	-moz-border-bottom-left-radius: 5px;  /* Old Firefox */
+}
+.minysite-holder {
+	position: relative;
+	width: 600px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px 10px 5px #888888;
+	-moz-border-bottom-right-radius: 5px; /* Old Firefox */
+	-moz-border-bottom-left-radius: 5px;  /* Old Firefox */
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 15px;
+	color: #424242;
+	line-height: 25px;
+	min-height: 450px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	height: 592px;
+}
+ul {
+	display: block;
+}
+li {
+	display: block;
+}
+
+
+
+#minymenubar a img {
+	margin-right: 10px;
+	margin-left: 10px;
+	float: right;
+}
+#minymenubar a h5 {
+	position: relative;
+	width: 140px;
+	float: left;
+	height: 75px;
+	padding-top: 41px;
+	margin: 0px;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	box-shadow: 0px 10px 5px #888888;
+	-moz-border-top-left-radius: 5px; /* Old Firefox */
+	-moz-border-bottom-left-radius: 5px;  /* Old Firefox */
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+}
+#gcontent1 {
+	display: block;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#gcontent2 {
+	display: none;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#gcontent3 {
+	display: none;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#rcontent1 {
+	display: block;
+}
+#rcontent2 {
+	display: none;
+}
+#rcontent3 {
+	display: none;
+}
+#rcontent4 {
+	display: none;
+}
+#rcontent5 {
+	display: none;
+}
